@@ -1,0 +1,13 @@
+type Chatty @model {
+  id: ID!
+  user: String!
+  message: String!
+  createdAt: AWSDateTime
+}
+
+type Post {
+  id: ID!
+  title: String!
+  blog: Blog @connection(name: "BlogPosts")
+  comments: [Comment] @connection(name: "PostComments")
+}

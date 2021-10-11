@@ -1,0 +1,36 @@
+{
+    "paths": [
+        {
+            "name": "/todolist",
+            "lambdaFunction": "fTodoList",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/todolist"
+        }
+    ],
+    "resourceName": "vuepwa",
+    "apiName": "vuepwa",
+    "functionArns": [
+        {
+            "lambdaFunction": "fTodoList"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-vuejspwa-dev-235727-authRole",
+        "unAuthRoleName": "amplify-vuejspwa-dev-235727-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "fTodoList",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "500112e1"
+}

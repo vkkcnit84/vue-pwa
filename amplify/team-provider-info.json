@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vuejspwa-dev-235727-authRole",
+      "UnauthRoleArn": "arn:aws:iam::379725226624:role/amplify-vuejspwa-dev-235727-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::379725226624:role/amplify-vuejspwa-dev-235727-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-vuejspwa-dev-235727-deployment",
+      "UnauthRoleName": "amplify-vuejspwa-dev-235727-unauthRole",
+      "StackName": "amplify-vuejspwa-dev-235727",
+      "StackId": "arn:aws:cloudformation:us-east-1:379725226624:stack/amplify-vuejspwa-dev-235727/3e748d90-279c-11ec-a6e1-12645090582f",
+      "AmplifyAppId": "d3r5b5n0y6x8ut"
+    },
+    "categories": {
+      "auth": {
+        "vuejspwa102071a2": {}
+      },
+      "function": {
+        "fTodoList": {
+          "deploymentBucketName": "amplify-vuejspwa-dev-235727-deployment",
+          "s3Key": "amplify-builds/fTodoList-74576c513375682f6c6d-build.zip"
+        }
+      }
+    }
+  }
+}
