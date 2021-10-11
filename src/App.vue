@@ -19,9 +19,6 @@ import axios from "axios";
 import { Chatty } from "./models";
 import { DataStore, Predicates } from "@aws-amplify/datastore";
 
-// import { API, graphqlOperation } from 'aws-amplify';
-// import { listTodos } from './graphql/queries';
-
 const BASEURL = "http://localhost:3000/todos";
 
 export default {
